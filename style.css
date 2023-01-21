@@ -1,0 +1,77 @@
+/*
+Theme Name: Codersforest
+Theme URI:  https://www.codersforest.com/
+Author: Codersforest Team
+Author URI: https://www.codersforest.com/
+Description: Codersforest is a portfolio wordPress theme created by codersforest team.
+Version: 1.0.0
+Text Domain: codersforest
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* style code start */
+
+
+body{
+ padding:0;
+}
+
+
+.cf-footer-logo{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: #fff;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.cf-footer ul{
+	padding:0 !important;
+}
+
+.cf-footer ul li:before{
+	display:none;
+}
+
+.pagination-grid a{
+	color:#000;
+	padding:10px;
+}
+
+.cf-theme-relative{
+	position:relative;
+}
+
+.cf-bg-overlay-hd-title {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.cf-single-post-content img{
+	width:100%;
+}
+
+.cf_section_overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+	z-index:9;
+}
+
+.cf-section .vc_column_container{
+	z-index:99;
+}
+
+.cf-section{
+	position:relative;
+}
+
+.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li {
+    margin-bottom: 8px !important;
+}
